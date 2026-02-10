@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   height: 800px;
-  width: 100%;
+  width: 1440px;
   padding-top: 28px;
 }
 body,
@@ -134,12 +134,40 @@ h1 {
   margin-left: 124px;
 }
 .destra {
-  width: 460px;
+  width: 400px;
   height: 66px;
   flex-wrap: wrap;
   font-size: 20px;
   color: white;
   font-family: "Geist", sans-serif;
-  margin-right: 164px;
+  margin-right: 50px;
   letter-spacing: -5%;
+  margin-top: 20px;
+}
+
+@media (max-width: 1023px) {
+  .section1 {
+    background-image: url("immaginesfondoheader.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 28px;
+  }
+  .home {
+    display: none;
+  }
+  .area {
+    display: none;
+  }
+  .soluzioni {
+    display: none;
+  }
+  .case {
+    display: none;
+  }
+  .contatti {
+    display: none;
+  }
 }
