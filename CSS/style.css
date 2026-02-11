@@ -3,38 +3,44 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
-  width: 1440px;
-  padding-top: 28px;
+  height: 100vh;
+  width: 100%;
 }
 body,
 html {
   margin: 0;
-  height: 100%;
+  padding: 0;
 }
 .header {
-  width: 1440px;
+  width: 100%;
   height: 131px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav {
   background-color: #fff550;
-  width: 1250px;
+  width: 1344px;
   height: 83.64px;
+  margin-top: 28px;
+  margin-right: 48px;
   margin-left: 48px;
   border-radius: 49px;
-  padding: 20px 48px;
-  gap: 10px;
+  margin-bottom: 19.36px;
+
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contenitore {
   width: 1248px;
   height: 50px;
   display: flex;
   justify-content: space-between;
-  padding-right: 36px;
-  margin-top: 16px;
+  margin-top: 16.82px;
+  margin-bottom: 16.82px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .containerheader {
   display: flex;
@@ -42,51 +48,59 @@ nav {
   height: 50px;
   gap: 46px;
   align-items: center;
+  justify-content: center;
+  margin-left: 490px;
+  margin-right: 36px;
 }
 .imglogo {
   width: 154.65px;
   height: 50px;
+  bottom: 0;
+  left: 0;
 }
 .home {
-  display: flex;
   width: 44px;
   height: 19px;
   opacity: 75%;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   letter-spacing: -2%;
   color: #222333;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 .area {
-  display: flex;
   width: 147px;
   height: 19px;
   opacity: 75%;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   letter-spacing: -2%;
   color: #222333;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 .soluzioni {
-  display: flex;
   width: 69px;
   height: 19px;
   opacity: 75%;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   letter-spacing: -2%;
   color: #222333;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 .case {
   width: 96px;
   height: 19px;
-  display: flex;
+
   opacity: 75%;
   font-weight: 600;
   font-size: 16px;
@@ -94,9 +108,10 @@ nav {
   letter-spacing: -2%;
   color: #222333;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 .contatti {
-  display: flex;
   width: 61px;
   height: 19px;
   opacity: 75%;
@@ -106,16 +121,20 @@ nav {
   letter-spacing: -2%;
   color: #222333;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 .sezioneh1 {
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 217px;
+  margin-left: 124px;
+  margin-right: 124px;
+  width: 1192px;
+  height: 176;
 }
 h1 {
   color: rgb(255, 255, 255);
-  width: 1192px;
-  height: 176px;
-  font-size: 104px;
+
+  font-size: 6.5rem;
   letter-spacing: -2%;
   line-height: 85%;
   font-family: "Geist", sans-serif;
@@ -124,11 +143,12 @@ h1 {
 .sezp {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .sinistra {
   width: 700px;
   flex-wrap: wrap;
-  font-size: 32px;
+  font-size: 2rem;
   color: white;
   font-family: "Geist", sans-serif;
   margin-left: 124px;
@@ -137,7 +157,7 @@ h1 {
   width: 400px;
   height: 66px;
   flex-wrap: wrap;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
   font-family: "Geist", sans-serif;
   margin-right: 50px;
@@ -146,15 +166,6 @@ h1 {
 }
 
 @media (max-width: 1023px) {
-  .section1 {
-    background-image: url("immaginesfondoheader.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    padding-top: 28px;
-  }
   .home {
     display: none;
   }
