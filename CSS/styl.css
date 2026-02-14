@@ -199,7 +199,11 @@ h1 {
   width: 100%;
   height: 607px;
   background-color: rgb(255, 255, 255);
-  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
 }
 
 .sezionegrande {
@@ -208,11 +212,8 @@ h1 {
   height: 479px;
   display: flex;
   flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
 
   box-sizing: border-box;
-  margin-top: 64px;
 }
 
 .sezionett {
@@ -232,7 +233,7 @@ h1 {
   margin-left: 0;
 }
 h4 {
-  margin-top: 0;
+  margin: 0;
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 100%;
@@ -255,6 +256,76 @@ h4 {
   font-family: "Geist", sans-serif;
   margin-top: 0;
 }
+
+.sezionesottogrande {
+  margin-top: 0;
+  max-width: 1192px;
+  width: 100%;
+  height: 269px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.paragrafolungo {
+  margin-top: 0;
+  max-width: 1192px;
+  height: 176px;
+  display: flex;
+  padding-right: 120px;
+  gap: 56px;
+}
+.paragrafoprimo {
+  max-width: 508px;
+  width: 100%;
+  height: 176px;
+}
+.paragrafoprimo p {
+  font-family: "Geist", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #222333;
+}
+.paragrafosecondo {
+  max-width: 508px;
+  width: 100%;
+  height: 176px;
+}
+.paragrafosecondo p {
+  font-family: "Geist", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #222333;
+}
+.bottonegiallo {
+  max-width: 1192px;
+  width: 100%;
+  height: 45px;
+}
+.bottonegiallo button {
+  background-color: #fff550;
+  border-radius: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 24px;
+  padding-left: 24px;
+  box-sizing: border-box;
+  max-width: 217px;
+  width: 100%;
+  height: 45px;
+  color: #222333;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-family: "Geist", sans-serif;
+  white-space: nowrap;
+  border: none;
+}
+
 @media (max-width: 1023px) {
   .containerheader {
     display: none;
