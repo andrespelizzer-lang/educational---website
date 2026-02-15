@@ -533,6 +533,59 @@ h4 {
   color: #222333;
 }
 
+.section5 {
+  width: 100%;
+  height: 312.71px;
+
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 96px;
+}
+.primodiv {
+  max-width: 960px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primodiv h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #222333;
+  font-family: "Geist", sans-serif;
+}
+
+.secondodiv {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  width: 100%;
+  height: 40.71px;
+}
+
+.lazio {
+  width: 185.18px;
+  height: 39.2px;
+}
+.roma {
+  width: 169.54px;
+  height: 39.2px;
+}
+.aci {
+  width: 64.15px;
+  height: 35.88px;
+}
+.zetema {
+  width: 112.77px;
+  height: 40.71px;
+}
+
 @media (max-width: 1023px) {
   .containerheader {
     display: none;
@@ -888,6 +941,58 @@ h4 {
   }
   .rotto {
     display: block;
+  }
+  .section5 {
+    width: 100%;
+    height: 305.71px;
+
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+  }
+  .primodiv {
+    max-width: 960px;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primodiv h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 100%;
+    color: #222333;
+    font-family: "Geist", sans-serif;
+  }
+
+  .secondodiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    height: 40.71px;
+  }
+
+  .lazio {
+    width: 185.18px;
+    height: 39.2px;
+  }
+  .roma {
+    width: 169.54px;
+    height: 39.2px;
+  }
+  .aci {
+    width: 64.15px;
+    height: 35.88px;
+  }
+  .zetema {
+    width: 112.77px;
+    height: 40.71px;
   }
 }
 
@@ -1271,5 +1376,59 @@ h4 {
   }
   .rotto {
     display: block;
+  }
+  .section5 {
+    width: 100%;
+    height: 302.71px;
+
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+  }
+  .primodiv {
+    max-width: 375px;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primodiv h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 100%;
+    color: #222333;
+    font-family: "Geist", sans-serif;
+  }
+
+  .secondodiv {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 375px;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .lazio {
+    width: 185.18px;
+    height: 39.2px;
+  }
+  .roma {
+    width: 169.54px;
+    height: 39.2px;
+  }
+  .aci {
+    width: 64.15px;
+    height: 35.88px;
+  }
+  .zetema {
+    width: 112.77px;
+    height: 40.71px;
   }
 }
