@@ -747,6 +747,7 @@ h4 {
   width: 748px;
   height: 94px;
   gap: 54px;
+  display: flex;
 }
 
 .primacosa {
@@ -861,6 +862,70 @@ h4 {
   margin: 0;
   color: #fffff2;
   white-space: nowrap;
+}
+.secondaparty {
+  width: 118px;
+  height: 22px;
+}
+.secondaparty h5 {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 135%;
+  font-size: 1rem;
+  font-family: "Geist";
+  margin: 0;
+  color: #fffff2;
+  white-space: nowrap;
+}
+.secondoparti {
+  width: 87px;
+  height: 22px;
+}
+.secondoparti h5 {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 135%;
+  font-size: 1rem;
+  font-family: "Geist";
+  margin: 0;
+  color: #fffff2;
+  white-space: nowrap;
+}
+
+.secondacosa {
+  width: 177px;
+  height: 94px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.soprasc {
+  height: 12px;
+  width: 177px;
+}
+.soprasc h5 {
+  font-family: "Geist";
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fffff2;
+  margin: 0;
+}
+
+.sottosc {
+  width: 177px;
+  height: 66px;
+}
+.sottosc h4 {
+  font-weight: 400;
+  color: #fffff2;
+  letter-spacing: -0.05em;
+  line-height: 109%;
+  font-size: 1.25rem;
+  font-family: "Geist";
+  margin: 0;
 }
 
 @media (max-width: 1023px) {
