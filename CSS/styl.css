@@ -949,6 +949,78 @@ h4 {
   margin: 0;
 }
 
+.sottotc {
+  height: 48px;
+  width: 162px;
+}
+.prima {
+  width: 162px;
+  height: 22px;
+  display: flex;
+  gap: 8px;
+}
+
+.primaprima {
+  width: 32px;
+  height: 22px;
+}
+.primaprima h5 {
+  letter-spacing: -0.02em;
+  font-size: 1rem;
+  line-height: 135%;
+  font-weight: 400;
+  color: #fffff2;
+  margin: 0;
+  font-family: "Geist";
+}
+
+.secondaprima {
+  width: 122px;
+  height: 22px;
+}
+.secondaprima h5 {
+  margin: 0;
+  line-height: 109%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fffff2;
+  letter-spacing: -0.05em;
+  font-family: "Geist";
+}
+.secondaa {
+  width: 160px;
+  height: 22px;
+  display: flex;
+  gap: 8px;
+}
+
+.codic {
+  width: 30px;
+  height: 22px;
+}
+
+.codic h5 {
+  letter-spacing: -0.02em;
+  font-size: 1rem;
+  line-height: 135%;
+  font-weight: 400;
+  color: #fffff2;
+  margin: 0;
+  font-family: "Geist";
+}
+.seco {
+  height: 22px;
+  width: 122px;
+}
+.seco h5 {
+  margin: 0;
+  line-height: 109%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fffff2;
+  letter-spacing: -0.05em;
+  font-family: "Geist";
+}
 @media (max-width: 1023px) {
   .containerheader {
     display: none;
@@ -1436,6 +1508,368 @@ h4 {
     letter-spacing: -0.02em;
     font-weight: 600;
     border: none;
+  }
+  .ultimasezione {
+    max-width: 800px;
+    width: 100%;
+    height: 1161px;
+    background-color: #222333;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .sezioneuno {
+    max-width: 688px;
+    width: 100%;
+    height: 525px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    gap: 120px;
+    padding-top: 56px;
+    box-sizing: border-box;
+  }
+
+  .sezionesinistra {
+    width: 688px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sezioneimm img {
+    width: 154.65px;
+    height: 50px;
+  }
+
+  .sezionsottoimm {
+    height: 44px;
+    width: 688px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .sezionsottoimm h4 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-family: "Geist";
+    text-align: left;
+    color: #fffff2;
+  }
+
+  .sezionedestra {
+    width: 147px;
+    height: 191px;
+    gap: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .b {
+    color: #fffff2;
+  }
+
+  .sezionedue {
+    max-width: 688px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top: 1px solid white;
+  }
+
+  .trecose {
+    width: 688;
+    height: 408px;
+    gap: 54px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primacosa {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 236px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .soprapc {
+    height: 12px;
+    width: 236px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .soprapc h5 {
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-size: 0.75rem;
+    color: #fffff2;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .sottopc {
+    width: 236px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .primo {
+    height: 22px;
+    width: 212px;
+    gap: 8px;
+    display: flex;
+  }
+
+  .primopartita {
+    width: 77px;
+    height: 22px;
+    margin-left: 0;
+  }
+
+  .primopartita h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+  }
+
+  .secondapartita {
+    width: 127px;
+    height: 22px;
+  }
+  .secondapartita h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+  }
+
+  .secondo {
+    width: 233px;
+    height: 22px;
+    gap: 8px;
+    display: flex;
+  }
+  .terzo {
+    width: 236px;
+    height: 22px;
+    gap: 8px;
+    display: flex;
+  }
+
+  .codice {
+    width: 107px;
+    height: 22px;
+    margin-left: 0;
+  }
+  .codice h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+
+  .codiced {
+    width: 141px;
+    height: 22px;
+    margin-left: 0;
+  }
+  .codiced h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+  .secondaparty {
+    width: 118px;
+    height: 22px;
+  }
+  .secondaparty h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+  .secondoparti {
+    width: 87px;
+    height: 22px;
+  }
+  .secondoparti h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+
+  .secondacosa {
+    width: 177px;
+    height: 100px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .soprasc {
+    height: 12px;
+    width: 177px;
+  }
+  .soprasc h5 {
+    font-family: "Geist";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fffff2;
+    margin: 0;
+  }
+
+  .sottosc {
+    width: 177px;
+    height: 66px;
+  }
+  .sottosc h4 {
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-family: "Geist";
+    margin: 0;
+  }
+
+  .terzacosa {
+    width: 162px;
+    height: 100px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sopratc {
+    height: 12px;
+    width: 162px;
+  }
+  .sopratc h5 {
+    font-family: "Geist";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fffff2;
+    margin: 0;
+  }
+
+  .sottotc {
+    height: 48px;
+    width: 162px;
+  }
+  .prima {
+    width: 162px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .primaprima {
+    width: 32px;
+    height: 22px;
+  }
+  .primaprima h5 {
+    letter-spacing: -0.02em;
+    font-size: 1rem;
+    line-height: 135%;
+    font-weight: 400;
+    color: #fffff2;
+    margin: 0;
+    font-family: "Geist";
+  }
+
+  .secondaprima {
+    width: 122px;
+    height: 22px;
+  }
+  .secondaprima h5 {
+    margin: 0;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    font-family: "Geist";
+  }
+  .secondaa {
+    width: 160px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .codic {
+    width: 30px;
+    height: 22px;
+  }
+
+  .codic h5 {
+    letter-spacing: -0.02em;
+    font-size: 1rem;
+    line-height: 135%;
+    font-weight: 400;
+    color: #fffff2;
+    margin: 0;
+    font-family: "Geist";
+  }
+  .seco {
+    height: 22px;
+    width: 122px;
+  }
+  .seco h5 {
+    margin: 0;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    font-family: "Geist";
   }
 }
 
@@ -1953,5 +2387,367 @@ h4 {
     letter-spacing: -0.02em;
     font-weight: 600;
     border: none;
+  }
+  .ultimasezione {
+    max-width: 375px;
+    width: 100%;
+    height: 1141px;
+    background-color: #222333;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .sezioneuno {
+    max-width: 279px;
+    width: 100%;
+    height: 505px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    gap: 120px;
+    padding-top: 56px;
+    box-sizing: border-box;
+  }
+
+  .sezionesinistra {
+    width: 279px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sezioneimm img {
+    width: 154.65px;
+    height: 50px;
+  }
+
+  .sezionsottoimm {
+    height: 34px;
+    width: 279px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .sezionsottoimm h4 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-family: "Geist";
+    text-align: left;
+    color: #fffff2;
+  }
+
+  .sezionedestra {
+    width: 123px;
+    height: 181px;
+    gap: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .b {
+    color: #fffff2;
+  }
+
+  .sezionedue {
+    max-width: 279px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top: 1px solid white;
+  }
+
+  .trecose {
+    width: 279;
+    height: 408px;
+    gap: 54px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primacosa {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 218px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .soprapc {
+    height: 12px;
+    width: 218px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .soprapc h5 {
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-size: 0.75rem;
+    color: #fffff2;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .sottopc {
+    width: 218px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .primo {
+    height: 22px;
+    width: 212px;
+    gap: 8px;
+    display: flex;
+  }
+
+  .primopartita {
+    width: 77px;
+    height: 22px;
+    margin-left: 0;
+  }
+
+  .primopartita h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+  }
+
+  .secondapartita {
+    width: 127px;
+    height: 22px;
+  }
+  .secondapartita h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+  }
+
+  .secondo {
+    width: 233px;
+    height: 22px;
+    gap: 8px;
+    display: flex;
+  }
+  .terzo {
+    width: 236px;
+    height: 22px;
+    gap: 8px;
+    display: flex;
+  }
+
+  .codice {
+    width: 107px;
+    height: 22px;
+    margin-left: 0;
+  }
+  .codice h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+
+  .codiced {
+    width: 141px;
+    height: 22px;
+    margin-left: 0;
+  }
+  .codiced h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+  .secondaparty {
+    width: 118px;
+    height: 22px;
+  }
+  .secondaparty h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+  .secondoparti {
+    width: 87px;
+    height: 22px;
+  }
+  .secondoparti h5 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 135%;
+    font-size: 1rem;
+    font-family: "Geist";
+    margin: 0;
+    color: #fffff2;
+    white-space: nowrap;
+  }
+
+  .secondacosa {
+    width: 142px;
+    height: 100px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .soprasc {
+    height: 12px;
+    width: 142px;
+  }
+  .soprasc h5 {
+    font-family: "Geist";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fffff2;
+    margin: 0;
+  }
+
+  .sottosc {
+    width: 142px;
+    height: 51px;
+  }
+  .sottosc h4 {
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-family: "Geist";
+    margin: 0;
+  }
+
+  .terzacosa {
+    width: 138px;
+    height: 100px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sopratc {
+    height: 12px;
+    width: 138px;
+  }
+  .sopratc h5 {
+    font-family: "Geist";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fffff2;
+    margin: 0;
+  }
+
+  .sottotc {
+    height: 48px;
+    width: 138px;
+  }
+  .prima {
+    width: 162px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .primaprima {
+    width: 32px;
+    height: 22px;
+  }
+  .primaprima h5 {
+    letter-spacing: -0.02em;
+    font-size: 1rem;
+    line-height: 135%;
+    font-weight: 400;
+    color: #fffff2;
+    margin: 0;
+    font-family: "Geist";
+  }
+
+  .secondaprima {
+    width: 122px;
+    height: 22px;
+  }
+  .secondaprima h5 {
+    margin: 0;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    font-family: "Geist";
+  }
+  .secondaa {
+    width: 160px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .codic {
+    width: 30px;
+    height: 22px;
+  }
+
+  .codic h5 {
+    letter-spacing: -0.02em;
+    font-size: 1rem;
+    line-height: 135%;
+    font-weight: 400;
+    color: #fffff2;
+    margin: 0;
+    font-family: "Geist";
+  }
+  .seco {
+    height: 22px;
+    width: 122px;
+  }
+  .seco h5 {
+    margin: 0;
+    line-height: 109%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fffff2;
+    letter-spacing: -0.05em;
+    font-family: "Geist";
   }
 }
