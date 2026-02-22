@@ -3,18 +3,30 @@ html {
   margin: 0;
   padding: 0;
 }
-.border-box {
-  box-sizing: border-box;
-}
+
+/* ── UTILITY ── */
 .mt-zero {
   margin-top: 0;
 }
+.bg-yellow {
+  background-color: #fff550;
+}
+.bg-dark {
+  background-color: #222333;
+}
+.bg-white {
+  background-color: #fffff2;
+}
+.cl-white {
+  color: #fffff2;
+}
 
+/* ── HEADER ── */
 header {
   width: 100%;
   height: 8.1875rem;
   padding: 1.75rem 3rem 1.21rem;
-
+  box-sizing: border-box;
   position: fixed;
   background: transparent;
   z-index: 1000;
@@ -23,9 +35,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff550;
   border-radius: 49px;
-
+  box-sizing: border-box;
   width: 100%;
   height: 5.2275rem;
   padding-left: 3rem;
@@ -33,10 +44,10 @@ header {
 }
 nav {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   padding-right: 2.25rem;
+  box-sizing: border-box;
 }
 .imglogo {
   width: 154.65px;
@@ -48,12 +59,10 @@ nav {
 .link-header {
   max-width: 601px;
   width: 100%;
-  height: auto;
   display: flex;
   align-items: center;
   gap: 2.875rem;
 }
-
 .nav-link {
   opacity: 75%;
   font-weight: 600;
@@ -64,9 +73,9 @@ nav {
   text-decoration: none;
   font-family: "Geist", sans-serif;
   white-space: nowrap;
-  height: auto;
 }
 
+/* ── HERO ── */
 .hero-section {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -78,12 +87,14 @@ nav {
   min-height: 800px;
   height: 100vh;
   padding-top: 21.75rem;
+  box-sizing: border-box;
 }
 .title-hero-section {
   margin-right: auto;
   margin-left: auto;
   max-width: 1192px;
   width: 100%;
+  box-sizing: border-box;
 }
 h1 {
   color: rgb(255, 255, 255);
@@ -98,13 +109,11 @@ h1 {
   justify-content: space-between;
   max-width: 1192px;
   width: 100%;
-
   margin-top: 4.875rem;
-
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
-
 .herodescriptions {
   width: 100%;
   max-width: 716px;
@@ -123,7 +132,6 @@ h1 {
 }
 .herodetails p {
   font-weight: 400;
-
   font-size: 1.25rem;
   color: white;
   font-family: "Geist", sans-serif;
@@ -131,6 +139,7 @@ h1 {
   line-height: 109%;
 }
 
+/* ── EDITORIAL ── */
 .editorial-intro-section {
   width: 100%;
   min-height: 607px;
@@ -138,29 +147,26 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
-
 .editorial-section {
   max-width: 1192px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
-
 .headline {
   display: flex;
   flex-direction: column;
   max-width: 1192px;
   width: 100%;
-
   gap: 1rem;
   padding-bottom: 2.25rem;
 }
 .subtitle-headline {
   max-width: 1144px;
   width: 100%;
-
   margin-left: 0;
 }
 .subtitle-headline h6 {
@@ -172,7 +178,6 @@ h1 {
   font-family: "Geist", sans-serif;
   color: #222333;
 }
-
 .title-headline {
   max-width: 1144px;
   width: 100%;
@@ -186,7 +191,6 @@ h1 {
   letter-spacing: -0.04em;
   font-family: "Geist", sans-serif;
 }
-
 .editorial-content {
   max-width: 1192px;
   width: 100%;
@@ -196,9 +200,7 @@ h1 {
 }
 .paragraph {
   max-width: 1192px;
-
   padding-right: 7.5rem;
-
   min-height: 176px;
   display: flex;
   gap: 3.5rem;
@@ -228,9 +230,9 @@ h1 {
   height: 45px;
 }
 .button-editorial-section button {
-  background-color: #fff550;
   border-radius: 1.5rem;
-  padding: 0.8125rem 1.25rem;
+  padding: 0.8125rem 1.5rem;
+  box-sizing: border-box;
   max-width: 217px;
   width: 100%;
   height: 45px;
@@ -243,6 +245,8 @@ h1 {
   border: none;
   cursor: pointer;
 }
+
+/* ── MEDIA ── */
 .media-divided-section {
   background-image: url("../img/background-image-bee.webp");
   background-repeat: no-repeat;
@@ -252,10 +256,11 @@ h1 {
   max-height: 720px;
   height: 100vh;
 }
+
+/* ── OFFERING ── */
 .offering-section {
   width: 100%;
   min-height: 898.75px;
-  background-color: #fff550;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,7 +276,6 @@ h1 {
   max-width: 1192px;
   min-height: 144px;
   width: 100%;
-
   display: flex;
 }
 .offering-section-title {
@@ -298,11 +302,9 @@ h1 {
 }
 .offering-section-button button {
   width: 203px;
-
-  padding: 0.8125rem 1.25rem;
+  padding: 0.8125rem 1.5rem;
   border-radius: 1.25rem;
   color: #222333;
-  background-color: #fffff2;
   opacity: 75%;
   font-weight: 600;
   line-height: 120%;
@@ -323,7 +325,7 @@ h1 {
 .subheadcontainer p {
   color: #222333;
   letter-spacing: 0em;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 100%;
   font-family: "Geist", sans-serif;
@@ -331,30 +333,27 @@ h1 {
 .break {
   display: block;
 }
+
+/* ── SERVICE CARDS ── */
 .card-services-container {
   max-width: 1192px;
   width: 100%;
-
   display: flex;
   gap: 1.25rem;
 }
 .service-card {
   max-width: 283px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-color: #222333;
 }
 .head-service-card {
   max-width: 283px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
-  padding-top: 1.25rem;
-
+  padding-top: 1.5rem;
   gap: 0.75rem;
   align-items: center;
 }
@@ -400,13 +399,12 @@ h1 {
   max-width: 235px;
   width: 100%;
 }
-.bg-white {
-  background-color: #fffff2;
-}
 .service-card.bg-white .title-service-card h6,
 .service-card.bg-white .subtitle-service-card h6 {
   color: #222333;
 }
+
+/* ── PARTNER ── */
 .partner-section {
   width: 100%;
   min-height: 312.71px;
@@ -415,11 +413,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-top: 6rem;
+  box-sizing: border-box;
 }
 .headline-partner-section {
   max-width: 960px;
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,6 +453,8 @@ h1 {
   width: 112.77px;
   height: 40.71px;
 }
+
+/* ── VALUE SECTION ── */
 .value-proportion-section {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -466,7 +466,7 @@ h1 {
   max-height: 540px;
   height: 100vh;
   padding-top: 7.5rem;
-
+  box-sizing: border-box;
   gap: 3rem;
   display: flex;
   flex-direction: column;
@@ -475,7 +475,6 @@ h1 {
 .content-value-section {
   max-width: 1192px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
 }
@@ -517,8 +516,7 @@ h1 {
   width: 109px;
   height: 45px;
   border-radius: 1.5rem;
-  padding: 0.8125rem 1.25rem;
-  background-color: #fff550;
+  padding: 0.8125rem 1.5rem;
   color: #222333;
   font-size: 1rem;
   line-height: 120%;
@@ -527,24 +525,20 @@ h1 {
   border: none;
   cursor: pointer;
 }
-.cl-white {
-  color: #fffff2;
-}
+
+/* ── FOOTER ── */
 footer {
   width: 100%;
   height: 584px;
-  background-color: #222333;
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  margin-top: 0;
   align-items: center;
 }
 .up-container-footer {
   max-width: 1164px;
   width: 100%;
   height: 262px;
-  margin-top: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -568,8 +562,6 @@ footer {
   height: 44px;
   max-width: 443px;
   width: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 .subtitle-footer h4 {
   font-weight: 400;
@@ -579,7 +571,6 @@ footer {
   font-family: "Geist", sans-serif;
   text-align: left;
   color: #fffff2;
-  margin-top: 0;
 }
 .nav-container-footer {
   max-width: 601px;
@@ -588,6 +579,9 @@ footer {
   gap: 2.875rem;
   display: flex;
   align-items: flex-end;
+}
+.nav-link.cl-white {
+  color: #fffff2;
 }
 .down-container-footer {
   max-width: 1164px;
@@ -598,18 +592,13 @@ footer {
   align-items: flex-end;
   border-top: 1px solid white;
 }
-
 .content-down-container-footer {
   width: 748px;
-
   gap: 3.375rem;
   display: flex;
 }
 .column-footer {
-  margin-top: 0px;
-  margin-left: 0px;
   width: 236px;
-
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -630,7 +619,6 @@ footer {
 }
 .down-column {
   width: 236px;
-
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -659,6 +647,10 @@ footer {
   margin: 0;
   color: #fffff2;
 }
+
+/* ============================================================
+   TABLET — max-width: 1023px
+   ============================================================ */
 @media (max-width: 1023px) {
   .link-header {
     display: none;
@@ -688,45 +680,36 @@ footer {
   .herodescriptions {
     max-width: 688px;
   }
-
   .herodescriptions p {
     line-height: 98%;
     font-size: 1.625rem;
   }
-
   .editorial-intro-section {
     min-height: 717px;
   }
-
   .editorial-section {
     max-width: 704px;
   }
-
   .headline {
     max-width: 704px;
   }
   .subtitle-headline {
     max-width: 704px;
   }
-
   .title-headline {
     max-width: 704px;
   }
   .title-headline h2 {
     font-size: 4rem;
-
     line-height: 95%;
     letter-spacing: -0.06em;
   }
-
   .editorial-content {
     max-width: 704px;
   }
   .paragraph {
     max-width: 704px;
-
     padding-right: 4rem;
-
     min-height: 308px;
   }
   .firstparagraph {
@@ -740,7 +723,6 @@ footer {
   }
   .offering-section {
     min-height: 1449.29px;
-
     width: 100%;
   }
   .offering-content {
@@ -749,12 +731,10 @@ footer {
   .offering-headline {
     max-width: 704px;
     min-height: 191px;
-
     flex-direction: column;
   }
   .offering-section-title {
     max-width: 704px;
-
     min-height: 122px;
   }
   .offering-section-title h2 {
@@ -768,15 +748,12 @@ footer {
     justify-content: flex-end;
     align-items: flex-start;
   }
-
   .subheadcontainer {
     max-width: 704px;
-
     min-height: 100px;
   }
   .subheadcontainer p {
     font-size: 1.625rem;
-
     line-height: 98%;
   }
   .break {
@@ -787,7 +764,6 @@ footer {
   }
   .card-services-container {
     max-width: 704px;
-
     flex-wrap: wrap;
   }
   .service-card {
@@ -800,14 +776,11 @@ footer {
   .title-service-card {
     max-width: 310px;
   }
-
   .subtitle-service-card {
     max-width: 310px;
   }
-
   .image-card {
     max-width: 342px;
-
     height: 293.14px;
   }
   .image-card img {
@@ -815,25 +788,24 @@ footer {
     max-width: 294px;
   }
   .partner-section {
-    height: 305.71px;
+    min-height: 305.71px;
   }
   .value-proportion-section {
     max-height: 425px;
   }
   .content-value-section {
     max-width: 704px;
-    gap: 16px;
-    height: 92px;
+    gap: 1rem;
+    min-height: 92px;
   }
   .subtitle-value-section {
     max-width: 704px;
     width: 100%;
-    height: 14px;
+    min-height: 14px;
   }
-
   .title-value-section {
     max-width: 704px;
-    height: 62px;
+    min-height: 62px;
   }
   .title-value-section h2 {
     line-height: 98%;
@@ -845,13 +817,9 @@ footer {
   }
   .up-container-footer {
     max-width: 688px;
-
     height: 525px;
-
     flex-direction: column;
-
     align-items: flex-start;
-
     padding-top: 3.5rem;
     box-sizing: border-box;
   }
@@ -859,37 +827,34 @@ footer {
     max-width: 688px;
     width: 100%;
   }
-
   .subtitle-footer {
     max-width: 688px;
     width: 100%;
   }
-
   .nav-container-footer {
     max-width: 147px;
     width: 100%;
     height: 191px;
     gap: 1.5rem;
     flex-direction: column;
-
     align-items: flex-start;
     justify-content: flex-start;
   }
   .down-container-footer {
     max-width: 688px;
-
     height: 420px;
   }
-
   .content-down-container-footer {
     max-width: 688px;
     width: 100%;
     height: 408px;
-
     flex-direction: column;
   }
 }
 
+/* ============================================================
+   MOBILE — max-width: 768px
+   ============================================================ */
 @media (max-width: 768px) {
   .hero-section {
     padding-top: 23.5rem;
@@ -911,20 +876,17 @@ footer {
   }
   nav {
     width: 100%;
-
     box-sizing: border-box;
   }
   .imglogo {
     width: 154.65px;
     height: 50px;
   }
-
   .title-hero-section {
-    height: auto;
     max-width: 303px;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
@@ -934,7 +896,6 @@ footer {
   }
   .header-subcontent {
     flex-direction: column;
-
     max-width: 303px;
     width: 100%;
     margin-top: 2.25rem;
@@ -957,12 +918,10 @@ footer {
   .editorial-intro-section {
     min-height: 995px;
   }
-
   .editorial-section {
     max-width: 327px;
     width: 100%;
   }
-
   .headline {
     max-width: 327px;
   }
@@ -973,28 +932,23 @@ footer {
     font-size: 0.625rem;
     letter-spacing: -0.02em;
   }
-
   .title-headline {
     max-width: 327px;
     min-height: 184px;
   }
   .title-headline h2 {
     font-size: 3rem;
-
     line-height: 95%;
     letter-spacing: -0.03em;
   }
-
   .editorial-content {
     max-width: 327px;
   }
-
   .paragraph {
     max-width: 327px;
     display: flex;
     flex-direction: column;
-
-    padding-right: 0px;
+    padding-right: 0;
     height: auto;
     gap: 1.5rem;
   }
@@ -1007,7 +961,6 @@ footer {
   .break-desktop {
     display: block;
   }
-
   .offering-section {
     min-height: 1161px;
   }
@@ -1022,7 +975,6 @@ footer {
   }
   .offering-section-title {
     max-width: 327px;
-
     min-height: 184px;
   }
   .offering-section-title h2 {
@@ -1033,7 +985,6 @@ footer {
   .offering-section-button {
     max-width: 327px;
     min-height: 67px;
-
     align-items: flex-start;
   }
   .offering-section-button button {
@@ -1047,12 +998,11 @@ footer {
   }
   .subheadcontainer {
     max-width: 327px;
-
     min-height: 132px;
   }
   .subheadcontainer p {
     letter-spacing: -0.03em;
-    font-size: 1.375em;
+    font-size: 1.375rem;
   }
   .break {
     display: inline;
@@ -1064,17 +1014,13 @@ footer {
   .service-card {
     max-width: 153.5px;
     height: 271px;
-
     align-items: center;
-
     gap: 0.75rem;
   }
   .head-service-card {
     max-width: 129.5px;
     height: 148px;
-
     padding-top: 1rem;
-
     gap: 0.75rem;
   }
   .title-service-card {
@@ -1093,24 +1039,19 @@ footer {
   }
   .image-card {
     max-width: 129.5px;
-
     height: 111px;
   }
   .image-card img {
     height: 95px;
     max-width: 113.5px;
   }
-
   .headline-partner-section {
     height: 32px;
   }
-
   .brand-img {
     flex-wrap: wrap;
     max-width: 375px;
-
     height: 120px;
-
     align-content: space-between;
   }
   .value-proportion-section {
@@ -1118,12 +1059,11 @@ footer {
   }
   .content-value-section {
     max-width: 327px;
-    height: 78px;
+    min-height: 78px;
   }
   .subtitle-value-section {
     max-width: 327px;
-
-    height: 10px;
+    min-height: 10px;
   }
   .subtitle-value-section h6 {
     letter-spacing: -0.02em;
@@ -1131,8 +1071,7 @@ footer {
   }
   .title-value-section {
     max-width: 327px;
-
-    height: 52px;
+    min-height: 52px;
   }
   .title-value-section h2 {
     letter-spacing: 0em;
@@ -1143,9 +1082,7 @@ footer {
   }
   .up-container-footer {
     max-width: 279px;
-
     height: 505px;
-
     justify-content: flex-start;
     align-items: flex-start;
     gap: 7.5rem;
@@ -1155,16 +1092,13 @@ footer {
     max-width: 279px;
     height: 92px;
   }
-
   .subtitle-footer {
     height: 34px;
     max-width: 279px;
   }
-
   .nav-container-footer {
     max-width: 123px;
     height: 181px;
-
     flex-direction: column;
     gap: 1.5rem;
     align-items: flex-start;
@@ -1172,10 +1106,8 @@ footer {
   }
   .down-container-footer {
     max-width: 279px;
-
     height: 420px;
   }
-
   .content-down-container-footer {
     max-width: 279px;
   }
@@ -1186,7 +1118,6 @@ footer {
     height: 12px;
     max-width: 218px;
   }
-
   .down-column {
     max-width: 218px;
   }
