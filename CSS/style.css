@@ -64,7 +64,7 @@ nav {
 }
 
 .hero-section {
-  background-image: url("immaginesfondohero.png");
+  background-image: url("../img/background-image-hero.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -261,7 +261,7 @@ h1 {
   border: none;
 }
 .media-divided-section {
-  background-image: url("ape.png");
+  background-image: url("../img/background-image-bee.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -480,7 +480,7 @@ h1 {
   height: 40.71px;
 }
 .value-proportion-section {
-  background-image: url("bg-image-values-section.png");
+  background-image: url("../img/bg-image-values-section.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
