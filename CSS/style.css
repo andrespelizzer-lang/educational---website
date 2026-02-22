@@ -89,6 +89,13 @@ nav {
   padding-top: 21.75rem;
   box-sizing: border-box;
 }
+
+.contacts-bg-img-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/contacts-background-image-hero.webp");
+  padding-top: 30.725rem;
+}
 .title-hero-section {
   margin-right: auto;
   margin-left: auto;
@@ -666,8 +673,14 @@ footer {
   .hero-section {
     padding-top: 23.5625rem;
   }
+  .contacts-bg-img-hero {
+    padding-top: 26.6875rem;
+  }
   .title-hero-section {
     padding-left: 3.5rem;
+  }
+  .break-title-h1 {
+    display: block;
   }
   h1 {
     font-size: 4.5rem;
@@ -859,6 +872,10 @@ footer {
   .hero-section {
     padding-top: 23.5rem;
   }
+  .contacts-bg-img-hero {
+    padding-top: 34rem;
+  }
+
   header {
     width: 100%;
     height: 116px;
@@ -891,6 +908,7 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+
   h1 {
     font-size: 3rem;
   }
@@ -903,6 +921,7 @@ footer {
   .herodescriptions {
     max-width: 303px;
     width: 100%;
+    white-space: nowrap;
   }
   .herodescriptions p {
     font-size: 1.375rem;
