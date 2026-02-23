@@ -754,9 +754,11 @@ button:hover {
   opacity: 0.8;
   transition: opacity 0.2s ease;
 }
+
 /* ============================================================
    TABLET — max-width: 1023px
    ============================================================ */
+
 @media (max-width: 1023px) {
   .link-header {
     display: none;
@@ -1006,6 +1008,7 @@ button:hover {
 /* ============================================================
    MOBILE — max-width: 768px
    ============================================================ */
+
 @media (max-width: 768px) {
   .hero-section {
     padding-top: 23.5rem;
