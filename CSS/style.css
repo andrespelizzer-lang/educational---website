@@ -288,7 +288,7 @@ h1 {
   box-sizing: border-box;
   height: 455px;
   gap: 26.375rem;
-  padding-left: 120px;
+  padding-left: 7.5rem;
 }
 
 .container-number {
@@ -745,7 +745,15 @@ footer {
   margin: 0;
   color: #fffff2;
 }
-
+/* ── HOVER STATES ── */
+.nav-link:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
 /* ============================================================
    TABLET — max-width: 1023px
    ============================================================ */
